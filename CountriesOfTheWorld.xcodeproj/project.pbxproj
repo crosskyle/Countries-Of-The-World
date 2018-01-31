@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		24FD556720227DD700C8A572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD556620227DD700C8A572 /* AppDelegate.swift */; };
-		24FD556920227DD700C8A572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD556820227DD700C8A572 /* ViewController.swift */; };
 		24FD556C20227DD700C8A572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FD556A20227DD700C8A572 /* Main.storyboard */; };
 		24FD556E20227DD700C8A572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FD556D20227DD700C8A572 /* Assets.xcassets */; };
 		24FD557120227DD700C8A572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FD556F20227DD700C8A572 /* LaunchScreen.storyboard */; };
+		24FD557A20227E3900C8A572 /* CountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD557820227E3800C8A572 /* CountryTableViewController.swift */; };
+		24FD557B20227E3900C8A572 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD557920227E3800C8A572 /* CountryViewController.swift */; };
+		24FD557D20227E4100C8A572 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD557C20227E4000C8A572 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24FD556320227DD700C8A572 /* CountriesOfTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesOfTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FD556620227DD700C8A572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24FD556820227DD700C8A572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24FD556B20227DD700C8A572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24FD556D20227DD700C8A572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24FD557020227DD700C8A572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24FD557220227DD700C8A572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FD557820227E3800C8A572 /* CountryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewController.swift; sourceTree = "<group>"; };
+		24FD557920227E3800C8A572 /* CountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		24FD557C20227E4000C8A572 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		24FD556520227DD700C8A572 /* CountriesOfTheWorld */ = {
 			isa = PBXGroup;
 			children = (
+				24FD557820227E3800C8A572 /* CountryTableViewController.swift */,
+				24FD557920227E3800C8A572 /* CountryViewController.swift */,
 				24FD556620227DD700C8A572 /* AppDelegate.swift */,
-				24FD556820227DD700C8A572 /* ViewController.swift */,
 				24FD556A20227DD700C8A572 /* Main.storyboard */,
+				24FD557C20227E4000C8A572 /* Country.swift */,
 				24FD556D20227DD700C8A572 /* Assets.xcassets */,
 				24FD556F20227DD700C8A572 /* LaunchScreen.storyboard */,
 				24FD557220227DD700C8A572 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24FD556920227DD700C8A572 /* ViewController.swift in Sources */,
+				24FD557D20227E4100C8A572 /* Country.swift in Sources */,
+				24FD557B20227E3900C8A572 /* CountryViewController.swift in Sources */,
+				24FD557A20227E3900C8A572 /* CountryTableViewController.swift in Sources */,
 				24FD556720227DD700C8A572 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
