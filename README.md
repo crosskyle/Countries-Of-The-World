@@ -4,3 +4,6 @@ The Codable protocol is used to grab some JSON data about countries of the world
 
 Utilizes: 
 Codable Protocol, Extensions, Functional programming, UITableView, MapKit
+
+
+<iframe src="https://giphy.com/embed/3ohjV2R7Gh0jBlPyeY" width="480" height="458" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3ohjV2R7Gh0jBlPyeY">via GIPHY</a></p>
